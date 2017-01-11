@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+.topText a {
+  outline: 0;
+  color: #0645AD;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.mainWrapper {
+  width: 70%;
+  height: 100vh;
+  margin: 0 auto;
+  font-size: 13px;
+  line-height: 1.5;
+  font-family: arial;
+}
+
+.topText {
+  font-size: 150%;
+}
+
+.welcomeText {
+  font-weight: bold;
+  text-align: right;
+  margin: 0;
+}
+
+.iconContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.iconContainer a {
+  flex-basis: 25%;
+}
+
+footer {
+  font-size: 90%;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+footer a {
+  outline: 0;
+  color: #0645AD;
+  text-decoration: none;
+  padding: 20px;
+}
