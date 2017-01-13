@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Inconsolata');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+  height: 1800px;
+  width: 100%;
+}
+
+.navBar {
+  background-color: #fff;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+}
+
+.navBarBrand {
+  flex: 1;
+  align-self: center;
+  margin-left: 15px;
+  font-family: 'Inconsolata', sans-serif;
+  font-weight: 800;
+  text-decoration: none;
+  letter-spacing: .2em;
+  color: #5e5e5e;
+  font-size: 16px;
+}
+
+
+.hamburgerSelector {
+  background-color: transparent;
+  background-image: none;
+  padding: 9px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  align-self: center;
+  margin-right: 15px;
+}
+
+.pageScrollNav {
+  display:none;
+}
+
+.header {
+  background-image: url(../week2day2/images/barbiere-background.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 380px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hdrLogo {
+  background-image: url(../week2day2/images/barbiere-logo-light.png);
+  width: 220px;
+  height: 100px;
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
+
+.hdrScheduleButton {
+  padding: 15px 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  background-color: #E6F2EE;
+  border: none;
+  color: #5e5e5e;
+}
+
+.hdrScheduleButton:hover {
+  background-color: #5e5e5e;
+  color: #E6F2EE;
+}
+
+@media (min-width: 767px) {
+
+  .hamburgerSelector {
+    display: none;
+  }
+  .pageScrollNav {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .header {
+    background-image: url(../week2day2/images/barbiere-background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 680px;
+    width: 100%;
+  }
+
+}
